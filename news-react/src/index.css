@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.custom-font{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #F81539 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar-thumb {
+  background-color: #F81539;
+  border-radius: 27px;
+  border: -10px outset #ff0000;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #F81539;
+  border-radius: 27px;
+  border: -10px outset #ff0000;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
